@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>FDLib</AssemblyName>
+    <RootNamespace>$(SolutionName).$(AssemblyName)</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChaseLabs.Logger" Version="0.2.1.1" />
+    <PackageReference Include="YoutubeExplode" Version="6.1.2" />
+  </ItemGroup>
+
+</Project>

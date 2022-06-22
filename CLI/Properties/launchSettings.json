@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Open Help": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    },
+    "Download Ubuntu": {
+      "commandName": "Project",
+      "commandLineArgs": "-i https://mirror.pnl.gov/releases/20.04.4/ubuntu-20.04.4-desktop-amd64.iso -p 1200 -o C:\\Users\\_drew\\Dowloads\\ -f ubuntu.iso"
+    },
+    "No Args": {
+      "commandName": "Project"
+    }
+  }
+}
